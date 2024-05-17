@@ -11,4 +11,3 @@
 // console.log(gerar)
 let num1 = 9
 console.log(num1** (1/2))//raiz quadrada
-let qwe= document.querySelector

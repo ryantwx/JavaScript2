@@ -12,4 +12,4 @@ function some (x,y){
 }
 console.log(some(1,5))
 console.log(some(2,5))
-console.log(some(3,5))
+console.log(some(3 ,5))

@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(6, 6, 66);
+    width: 100vh;
+    height: 100vh;
+    
+  
+    
+}
+.mae{
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    margin: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background-color: beige;
+    padding: 0px 10px 10px 10px;
+    overflow: hidden;
+}
+.imcdados{
+    margin:20px;
+    background-color: rgb(255, 227, 227);
+    columns: 2; /* Número de colunas */
+    column-gap: 10px; /* Espaçamento entre as colunas */
+}
+

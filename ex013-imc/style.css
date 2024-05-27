@@ -2,16 +2,13 @@ body{
     background-color: rgb(6, 6, 66);
     width: 100vh;
     height: 100vh;
-    
-  
-    
 }
 .mae{
-    height: 500px;
+ 
+    height: 700px;
     border-radius: 20px;
     position: absolute;
-    margin: 1;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 500px;
@@ -20,9 +17,55 @@ body{
     overflow: hidden;
 }
 .imcdados{
-    margin:20px;
-    background-color: rgb(255, 227, 227);
-    columns: 2; /* Número de colunas */
-    column-gap: 10px; /* Espaçamento entre as colunas */
-}
+    padding: 10px;
 
+    width: 150px;
+    position: absolute;
+    margin: 10px;
+    top: 9%;
+
+}
+.imc{
+    
+    padding: 10px;
+    margin: 10px; 
+    position: absolute;
+    right: 1%;
+    top: 9%;
+    width: 150px;;
+}
+.calculo{
+  
+    height: 300px;
+    width: 450px;
+    top: 41%;
+    position: absolute;
+}
+.textos{
+    width: 436px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    
+    
+}
+form{
+    line-height: 20px;
+}
+.botao{
+    width: 496px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(103, 103, 240);
+    padding: 14px;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+   justify-content: center;
+}
+#enviar{
+    width: 300px;
+    height: 20px;
+    
+
+
+}

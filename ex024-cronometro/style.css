@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(7, 7, 82);
+}
+.titulo{
+    padding: 9px;
+}
+.LiteralTimer{
+    padding: 10px;
+}
+
+
+.interface{
+    height: 230px;
+    width: 470px;
+    background-color: rgb(9, 88, 192);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-width: 5px;  
+    border-style: solid; 
+    border-color :rgb(0, 0, 0);
+    border-radius: 20px;
+}
+.cssbotton{
+    padding: 5px;
+    margin: 9px;
+    border-radius: 10px;
+    background-color: rgb(161, 163, 226);
+}

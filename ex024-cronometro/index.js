@@ -1,25 +1,42 @@
-const relogio = document.querySelector('.LiteralTimer')
-const iniciar = document.querySelector('#iniciar')
-const pausar  = document.querySelector('#pausar')
-const zerar = document.querySelector('#zerar')
+var sec = 0
+var min = 0 
+var interval = 0
+var hr=0
 
-function mostraHora(){
-    let date = new Date()
-    return date.toLocaleTimeString('pt-br',{
-        hour12:false
-    })
+function twoDigit(digit){
+    if (digit<10){
+        return ("0"+digit)
+    }
+    else{return digit}
+        
+    
 }
 
-iniciar.addEventListener('click', function(event){ 
-    relogio.innerHTML = setInterval(function(){
-        console.log(mostraHora())
-    },1000)
-})
- //addEventListener adiciona uma evento (no caso o click (clicar)) onde apos o evento realizar a função 
- pausar.addEventListener('click', function(event){ 
-    alert('ola')
-})
-zerar.addEventListener('click', function(event){ 
-    alert('asd')
-})
+function start(){
+    interval =  setInterval(watch,10)
+}
+function pause(){
+    clearInterval(interval)
+    
+}
+function reset(){
+    clearInterval(interval)
+    sec=0
+    min = 0
+    
+    document.getElementById('watch').innerText = '00:00:00'
+}
+function watch(){
+    sec++
+    if (sec==60){
+        min++
+        sec =0 
+        if(min == 60){
+            min=0
+            hr++
+
+        }
+    }
+    document.getElementById('watch').innerText=  twoDigit(hr) + ':'+ twoDigit(min) +':' +twoDigit(sec)
+}
 

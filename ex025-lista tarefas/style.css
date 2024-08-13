@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(5, 5, 65);
+}
+.cabeça{
+    height: 383px;
+    width: 431px;
+    background-color: rgb(139, 139, 139);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.up{
+    padding: 17px;
+}

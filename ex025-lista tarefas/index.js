@@ -27,7 +27,12 @@ function Armazenar(){
         botao.addEventListener('click', function(e){
             listaMae.removeChild(li)
 
-    })
+         })
+
+
+         function getItem{
+            localStorage('Tarefa',btnTarefa)
+         }
 
     document.getElementById('tarefa').value=''
     }

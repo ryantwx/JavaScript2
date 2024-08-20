@@ -27,10 +27,7 @@ function Armazenar(){
         botao.addEventListener('click', function(e){
             listaMae.removeChild(li)
 
-         })
-
-
-       
+    })
 
     document.getElementById('tarefa').value=''
     }

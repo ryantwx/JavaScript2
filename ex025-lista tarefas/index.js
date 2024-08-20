@@ -30,9 +30,9 @@ function Armazenar(){
          })
 
 
-         function getItem{
-            localStorage('Tarefa',btnTarefa)
-         }
+       function pegar(){
+        localStorage('tarefa',btnTarefa)
+       }
 
     document.getElementById('tarefa').value=''
     }

@@ -16,4 +16,4 @@ SouUmDado()
 const nova = () => {
     console.log('teste ')
 }
-nova()//teste 2
+

@@ -16,9 +16,4 @@ SouUmDado()
 const nova = () => {
     console.log('teste ')
 }
-nova()
-false
-//tetse
-dsadasd
-
 

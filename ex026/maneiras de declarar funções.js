@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+function
+=======
 
 
 // pode ser chamdo em qualquer lugar do codigo 
@@ -20,3 +23,4 @@ false
 //tetse
 
 
+>>>>>>> 95a8286b2c0850c11c0d64dddc5d7d9555152d9a

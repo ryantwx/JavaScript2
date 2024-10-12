@@ -29,6 +29,7 @@ function reset (){
     min=0 
     hr= 0 
     document.getElementById('watch').innerHTML='00:00:00'
+    
 }
 function watch(){
     sec++
